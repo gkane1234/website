@@ -1,12 +1,21 @@
+import './globals.css'
+import Nav from './components/Nav'
+
 export const metadata = {
-  title: 'My Website',
-  description: 'A simple website deployed on Vercel',
+  title: 'Your Name — Portfolio',
+  description: 'Personal portfolio website',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Nav />
+        {children}
+        <footer className="footer">
+          &copy; {new Date().getFullYear()} Your Name. All rights reserved.
+        </footer>
+      </body>
     </html>
   )
 }
