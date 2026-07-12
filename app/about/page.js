@@ -5,12 +5,12 @@ export default function About() {
       <div className="about-content">
         <p>
           {/* TODO: Replace with your bio */}
-          Hello! I&apos;m [Your Name], a [your role] based in [your location].
+          Hello! I&apos;m Gabriel Kane, a deep thinker based in Los Angeles.
           I enjoy building [what you build] and I&apos;m passionate about [your interests].
         </p>
         <p>
           {/* TODO: Add more background */}
-          When I&apos;m not coding, you can find me [your hobbies].
+          When I&apos;m not coding, you can find me trail running or singing jazz.
           I&apos;m currently [what you&apos;re working on or learning].
         </p>
 

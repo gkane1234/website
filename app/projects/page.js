@@ -1,9 +1,10 @@
 const projects = [
   {
-    title: 'Project One',
-    description: 'A short description of what this project does and why it matters.',
-    tech: ['React', 'Node.js', 'MongoDB'],
-    link: '#',
+    title: 'Elementary Math Worksheet Generator',
+    description:
+      'Generate printable math worksheets with randomized questions, KaTeX preview, and PDF export. Covers grade 6 through calculus.',
+    tech: ['Next.js', 'Python', 'KaTeX', 'Vercel'],
+    link: 'https://elementary-math.vercel.app',
   },
   {
     title: 'Project Two',
