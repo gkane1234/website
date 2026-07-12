@@ -19,7 +19,14 @@ export default function Nav() {
       <ul className="nav-links">
         {links.map(({ href, label }) => (
           <li key={href}>
-            <Link href={href} className={pathname === href ? 'active' : ''}>
+            <Link
+              href={href}
+              className={
+                pathname === href || (href !== '/' && pathname?.startsWith(href + '/'))
+                  ? 'active'
+                  : ''
+              }
+            >
               {label}
             </Link>
           </li>

@@ -1,5 +1,6 @@
 import './globals.css'
 import Nav from './components/Nav'
+import SiteFooter from './components/SiteFooter'
 
 export const metadata = {
   title: 'Your Name — Portfolio',
@@ -12,9 +13,7 @@ export default function RootLayout({ children }) {
       <body>
         <Nav />
         {children}
-        <footer className="footer">
-          &copy; {new Date().getFullYear()} Your Name. All rights reserved.
-        </footer>
+        <SiteFooter />
       </body>
     </html>
   )
