@@ -10,10 +10,11 @@ const projects = [
     external: false,
   },
   {
-    title: 'Project Two',
-    description: 'A short description of what this project does and why it matters.',
-    tech: ['Next.js', 'Tailwind', 'Vercel'],
-    href: '#',
+    title: 'Inequivalent Expression Solver',
+    description:
+      'Builds algebraically inequivalent expressions on your device, then searches for ways to hit a goal with +, −, ×, ÷ and parentheses.',
+    tech: ['JavaScript', 'Web Workers', 'HTML/CSS'],
+    href: '/projects/inequivalent',
     external: false,
   },
   {
