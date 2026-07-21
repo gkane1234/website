@@ -1,18 +1,44 @@
-# My Website
+# Gabriel Kane — Portfolio
 
-A simple Next.js website deployed on Vercel.
+Personal portfolio site for **Gabriel Kane** (MIT B.S. Mathematics & Music): resume, selected projects, and contact. Built with [Next.js](https://nextjs.org/) and deployed on [Vercel](https://vercel.com/).
 
-## Getting Started
+## What’s here
+
+- **Home** — hero, resume (experience, education, skills), and project highlights
+- **Projects** — case studies and embeds for selected work
+- **About** / **Contact** — bio and ways to reach out
+
+### Featured projects
+
+| Project | Summary |
+| --- | --- |
+| [Maternal Health Analytics (WotW)](./app/projects/wotw) | End-to-end analytics for Well on Their Way (Gulu, Uganda): Python/Pandas cleaning, QGIS boundaries, Tableau dashboards |
+| [Elementary Math Worksheet Generator](./app/projects/elementary-math) | Printable worksheets with randomized questions, KaTeX preview, and PDF export (grade 6 through calculus) |
+| [Inequivalent Expression Solver](./app/projects/inequivalent) | Algorithm for producing inequivalent algebraic expressions; custom data structures and compression |
+| [Compute Shader Barnes–Hut N-Body](https://github.com/gkane1234/gravity) | Real-time n-body simulation with compute shaders (Java, GLSL, Python) — external repo |
+
+Project metadata lives in [`app/data/projects.js`](./app/data/projects.js).
+
+## Stack
+
+- **Next.js 14** (App Router) + React 18
+- Static/content-driven pages under `app/`
+- Hosted on Vercel
+
+## Local development
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000).
 
-## Deploy to Vercel
+```bash
+npm run build   # production build
+npm start       # serve the production build
+```
 
-1. Push this repo to GitHub
-2. Go to [vercel.com](https://vercel.com) and import your GitHub repository
-3. Vercel auto-detects Next.js — just click Deploy
+## Deploy
+
+Push to GitHub and import the repo in [Vercel](https://vercel.com/). Next.js is auto-detected; no special build config is required for a basic deploy.

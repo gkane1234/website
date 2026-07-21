@@ -1,0 +1,6 @@
+TODO (later): add resume PDF download buttons on the homepage and About page.
+
+When ready:
+1. Place the resume PDF here and name it: resume.pdf
+2. Re-add “Download resume” / “Download PDF” links pointing to /resume.pdf
+   (hero CTA, resume section header, and About page).

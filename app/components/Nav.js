@@ -15,7 +15,9 @@ export default function Nav() {
 
   return (
     <nav className="nav">
-      <Link href="/" className="nav-logo">YourName</Link>
+      <Link href="/" className="nav-logo">
+        Gabriel Kane
+      </Link>
       <ul className="nav-links">
         {links.map(({ href, label }) => (
           <li key={href}>

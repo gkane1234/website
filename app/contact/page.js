@@ -1,34 +1,37 @@
+import { contact } from '../data/projects'
+
 export default function Contact() {
   return (
     <div className="container">
       <h2 className="section-title">Contact</h2>
       <div className="contact-info">
-        <div className="contact-item">
+        <a href={`mailto:${contact.email}`} className="contact-item">
           <div>
             <div className="label">Email</div>
-            {/* TODO: Replace with your email */}
-            <div className="value">your.email@example.com</div>
+            <div className="value">{contact.email}</div>
           </div>
-        </div>
-        <div className="contact-item">
+        </a>
+        <a href={contact.phoneHref} className="contact-item">
+          <div>
+            <div className="label">Phone</div>
+            <div className="value">{contact.phone}</div>
+          </div>
+        </a>
+        <a
+          href={contact.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="contact-item"
+        >
           <div>
             <div className="label">GitHub</div>
-            {/* TODO: Replace with your GitHub */}
-            <div className="value">github.com/yourusername</div>
+            <div className="value">{contact.githubLabel}</div>
           </div>
-        </div>
-        <div className="contact-item">
-          <div>
-            <div className="label">LinkedIn</div>
-            {/* TODO: Replace with your LinkedIn */}
-            <div className="value">linkedin.com/in/yourusername</div>
-          </div>
-        </div>
+        </a>
         <div className="contact-item">
           <div>
             <div className="label">Location</div>
-            {/* TODO: Replace with your location */}
-            <div className="value">City, State</div>
+            <div className="value">{contact.location}</div>
           </div>
         </div>
       </div>
