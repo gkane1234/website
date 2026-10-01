@@ -10,6 +10,8 @@ const links = [
   { href: '/contact', label: 'Contact' },
 ]
 
+const TRAVEL_LOG_LOGIN = 'https://gabriel-kane.com/travel-log/login'
+
 export default function Nav() {
   const pathname = usePathname()
 
@@ -33,6 +35,11 @@ export default function Nav() {
             </Link>
           </li>
         ))}
+        <li>
+          <a href={TRAVEL_LOG_LOGIN} className="nav-login">
+            Login
+          </a>
+        </li>
       </ul>
     </nav>
   )
