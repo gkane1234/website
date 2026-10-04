@@ -98,11 +98,9 @@ export const education = [
 
 export const contact = {
   email: 'gkane@alum.mit.edu',
-  phone: '(703) 901-5591',
-  phoneHref: 'tel:+17039015591',
   github: 'https://github.com/gkane1234/',
   githubLabel: 'github.com/gkane1234',
-  location: 'Los Angeles, CA 90025',
+  location: 'Los Angeles, CA',
   objective:
     'Data science role utilizing MIT education, passion for deep research, and trend finding.',
 }

@@ -11,12 +11,6 @@ export default function Contact() {
             <div className="value">{contact.email}</div>
           </div>
         </a>
-        <a href={contact.phoneHref} className="contact-item">
-          <div>
-            <div className="label">Phone</div>
-            <div className="value">{contact.phone}</div>
-          </div>
-        </a>
         <a
           href={contact.github}
           target="_blank"

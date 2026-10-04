@@ -7,8 +7,6 @@ export default function Home() {
       <section className="hero hero-home">
         <h1>Gabriel Kane</h1>
         <p className="hero-contact">
-          <a href={contact.phoneHref}>{contact.phone}</a>
-          <span aria-hidden="true"> · </span>
           <a href={`mailto:${contact.email}`}>{contact.email}</a>
           <span aria-hidden="true"> · </span>
           <a href={contact.github} target="_blank" rel="noopener noreferrer">
@@ -92,10 +90,6 @@ export default function Home() {
           <a href={`mailto:${contact.email}`}>
             <span className="label">Email</span>
             <span className="value">{contact.email}</span>
-          </a>
-          <a href={contact.phoneHref}>
-            <span className="label">Phone</span>
-            <span className="value">{contact.phone}</span>
           </a>
           <a href={contact.github} target="_blank" rel="noopener noreferrer">
             <span className="label">GitHub</span>
