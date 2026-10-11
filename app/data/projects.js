@@ -100,6 +100,8 @@ export const contact = {
   email: 'gkane@alum.mit.edu',
   github: 'https://github.com/gkane1234/',
   githubLabel: 'github.com/gkane1234',
+  linkedin: 'https://www.linkedin.com/in/gabriel-kane',
+  linkedinLabel: 'linkedin.com/in/gabriel-kane',
   location: 'Los Angeles, CA',
   objective:
     'Data science role utilizing MIT education, passion for deep research, and trend finding.',
