@@ -22,6 +22,17 @@ export default function Contact() {
             <div className="value">{contact.githubLabel}</div>
           </div>
         </a>
+        <a
+          href={contact.linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="contact-item"
+        >
+          <div>
+            <div className="label">LinkedIn</div>
+            <div className="value">{contact.linkedinLabel}</div>
+          </div>
+        </a>
         <div className="contact-item">
           <div>
             <div className="label">Location</div>

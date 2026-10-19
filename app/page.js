@@ -13,6 +13,10 @@ export default function Home() {
             {contact.githubLabel}
           </a>
           <span aria-hidden="true"> · </span>
+          <a href={contact.linkedin} target="_blank" rel="noopener noreferrer">
+            {contact.linkedinLabel}
+          </a>
+          <span aria-hidden="true"> · </span>
           <span>{contact.location}</span>
         </p>
         <p className="tagline">{contact.objective}</p>
@@ -94,6 +98,10 @@ export default function Home() {
           <a href={contact.github} target="_blank" rel="noopener noreferrer">
             <span className="label">GitHub</span>
             <span className="value">{contact.githubLabel}</span>
+          </a>
+          <a href={contact.linkedin} target="_blank" rel="noopener noreferrer">
+            <span className="label">LinkedIn</span>
+            <span className="value">{contact.linkedinLabel}</span>
           </a>
           <div>
             <span className="label">Location</span>
