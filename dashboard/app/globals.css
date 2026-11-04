@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(1200px 500px at 10% -10%, rgba(30, 77, 58, 0.08), transparent 55%),
+    radial-gradient(900px 400px at 100% 0%, rgba(140, 59, 36, 0.06), transparent 50%),
+    #f3efe6;
+}
+
+::selection {
+  background: #d7ebdf;
+}
+
+.field {
+  @apply w-full rounded-xl border border-line bg-white px-3 py-2 text-sm text-ink outline-none transition placeholder:text-muted/70 focus:border-pine;
+}
+
+.eyebrow {
+  @apply text-[11px] font-medium uppercase tracking-[0.18em] text-muted;
+}
