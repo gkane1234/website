@@ -1,23 +1,28 @@
 # Gabriel Kane — Portfolio
 
-Personal portfolio site for **Gabriel Kane** (MIT B.S. Mathematics & Music): resume, selected projects, and contact. Built with [Next.js](https://nextjs.org/) and deployed on [Vercel](https://vercel.com/).
+Personal portfolio site for **Gabriel Kane** (MIT B.S. Mathematics & Music). One chronological list of work — recent projects and earlier teaching — plus skills and contact. Built with [Next.js](https://nextjs.org/) and deployed on [Vercel](https://vercel.com/).
 
 ## What’s here
 
-- **Home** — hero, resume (experience, education, skills), and project highlights
-- **Projects** — case studies and embeds for selected work
-- **About** / **Contact** — bio and ways to reach out
+- **Home** — objective, work in reverse chronological order, and skills
+- **Project pages** — the worksheet generator, the expression solver, and the Well on Their Way case study
 
-### Featured projects
+Work entries, skills, and contact details live in [`app/data/projects.js`](./app/data/projects.js).
 
-| Project | Summary |
+### Work
+
+| When | What |
 | --- | --- |
-| [Maternal Health Analytics (WotW)](./app/projects/wotw) | End-to-end analytics for Well on Their Way (Gulu, Uganda): Python/Pandas cleaning, QGIS boundaries, Tableau dashboards |
-| [Elementary Math Worksheet Generator](./app/projects/elementary-math) | Printable worksheets with randomized questions, KaTeX preview, and PDF export (grade 6 through calculus) |
-| [Inequivalent Expression Solver](./app/projects/inequivalent) | Algorithm for producing inequivalent algebraic expressions; custom data structures and compression |
-| [Compute Shader Barnes–Hut N-Body](https://github.com/gkane1234/gravity) | Real-time n-body simulation with compute shaders (Java, GLSL, Python) — external repo |
+| 2026 | [Maternal Health Analytics (Well on Their Way)](./app/projects/wotw) |
+| 2026 | [Elementary Math Worksheet Generator](./app/projects/elementary-math) |
+| 2025 – 2026 | [Compute Shader Barnes–Hut N-Body](https://github.com/gkane1234/gravity) |
+| 2025 | Encore |
+| 2024 – 2026 | [Inequivalent Expression Solver](./app/projects/inequivalent) |
+| 2024 – 2026 | Private instruction in calculus and statistics |
+| 2021 – 2024 | Mathematics faculty, Cambridge School of Weston |
+| 2021 | MIT, B.S. Mathematics and Music |
 
-Project metadata lives in [`app/data/projects.js`](./app/data/projects.js).
+Well on Their Way figures are omitted until real dashboard and map exports replace the old placeholders.
 
 ## Stack
 

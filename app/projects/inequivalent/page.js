@@ -1,3 +1,7 @@
+import { timeline } from '../../data/projects'
+
+const entry = timeline.find((item) => item.href === '/projects/inequivalent')
+
 export const metadata = {
   title: 'Inequivalent Expression Solver',
   description:
@@ -6,7 +10,11 @@ export const metadata = {
 
 export default function InequivalentProject() {
   return (
-    <div className="project-embed">
+    <div className="embed-page">
+      <p className="embed-intro">
+        <span className="embed-year">{entry.year}</span>
+        {entry.summary}
+      </p>
       <iframe
         src="/inequivalent/index.html"
         title="Inequivalent Expression Solver"
