@@ -5,7 +5,7 @@ Personal portfolio site for **Gabriel Kane** (MIT B.S. Mathematics & Music). One
 ## What’s here
 
 - **Home** — objective, work in reverse chronological order, and skills
-- **Project pages** — the worksheet generator, the expression solver, and the Well on Their Way case study
+- **Project pages** — the worksheet generator, the expression solver, the GravityChunk landing page, and the Well on Their Way case study
 
 Work entries, skills, and contact details live in [`app/data/projects.js`](./app/data/projects.js).
 
@@ -15,7 +15,7 @@ Work entries, skills, and contact details live in [`app/data/projects.js`](./app
 | --- | --- |
 | 2026 | [Maternal Health Analytics (Well on Their Way)](./app/projects/wotw) |
 | 2026 | [Elementary Math Worksheet Generator](./app/projects/elementary-math) |
-| 2025 – 2026 | [Compute Shader Barnes–Hut N-Body](https://github.com/gkane1234/gravity) |
+| 2025 – 2026 | [Compute Shader Barnes–Hut N-Body (GravityChunk)](./public/gravity/index.html) |
 | 2025 | Encore |
 | 2024 – 2026 | [Inequivalent Expression Solver](./app/projects/inequivalent) |
 | 2024 – 2026 | Private instruction in calculus and statistics |

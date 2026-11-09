@@ -26,9 +26,10 @@ export const timeline = [
     summary:
       'Real-time Barnes–Hut n-body simulation with compute shaders, built to handle tens of millions of bodies across a Java, GLSL, and Python codebase.',
     tech: ['Java', 'GLSL', 'Python', 'Compute Shaders'],
-    href: 'https://github.com/gkane1234/gravity',
-    external: true,
-    linkLabel: 'GitHub',
+    // GravityChunk landing page from gkane1234/gravity `website/`.
+    href: '/gravity/index.html',
+    document: true,
+    linkLabel: 'Open',
   },
   {
     year: '2025',

@@ -4,13 +4,15 @@ import { timeline } from '../data/projects'
 function TimelineLink({ item }) {
   if (!item.href) return null
 
-  if (item.external) {
+  // A static document (the GravityChunk page) needs a full navigation.
+  // Client-side Link only resolves app routes.
+  if (item.external || item.document) {
+    const newTab = item.external
     return (
       <a
         className="timeline-link"
         href={item.href}
-        target="_blank"
-        rel="noopener noreferrer"
+        {...(newTab ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
       >
         {item.linkLabel}
       </a>
