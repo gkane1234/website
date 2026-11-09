@@ -3,6 +3,15 @@
 export const timeline = [
   {
     year: '2026',
+    title: 'Elementary Math Worksheet Generator',
+    summary:
+      'Built a web app that generates printable math worksheets with randomized questions, KaTeX preview, and PDF export, from grade 6 through calculus.',
+    tech: ['Next.js', 'Python', 'KaTeX', 'Vercel'],
+    href: '/projects/elementary-math',
+    linkLabel: 'Open',
+  },
+  {
+    year: '2026',
     title: 'Maternal Health Analytics',
     context: 'Well on Their Way',
     summary:
@@ -10,15 +19,6 @@ export const timeline = [
     tech: ['Python', 'Pandas', 'Tableau', 'QGIS', 'Plotly', 'GeoPandas'],
     href: '/projects/wotw',
     linkLabel: 'Case study',
-  },
-  {
-    year: '2026',
-    title: 'Elementary Math Worksheet Generator',
-    summary:
-      'Built a web app that generates printable math worksheets with randomized questions, KaTeX preview, and PDF export, from grade 6 through calculus.',
-    tech: ['Next.js', 'Python', 'KaTeX', 'Vercel'],
-    href: '/projects/elementary-math',
-    linkLabel: 'Open',
   },
   {
     year: '2025 – 2026',

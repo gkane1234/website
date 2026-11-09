@@ -13,8 +13,8 @@ Work entries, skills, and contact details live in [`app/data/projects.js`](./app
 
 | When | What |
 | --- | --- |
-| 2026 | [Maternal Health Analytics (Well on Their Way)](./app/projects/wotw) |
 | 2026 | [Elementary Math Worksheet Generator](./app/projects/elementary-math) |
+| 2026 | [Maternal Health Analytics (Well on Their Way)](./app/projects/wotw) |
 | 2025 – 2026 | [Compute Shader Barnes–Hut N-Body (GravityChunk)](./public/gravity/index.html) |
 | 2025 | Encore |
 | 2024 – 2026 | [Inequivalent Expression Solver](./app/projects/inequivalent) |
