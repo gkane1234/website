@@ -427,6 +427,110 @@ a:focus-visible {
   color: var(--accent);
 }
 
+.dev-resumes {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.dev-resumes-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+}
+
+.dev-resumes h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.35rem;
+}
+
+.dev-resumes-bar p,
+.dev-default,
+.dev-meta {
+  color: var(--text-muted);
+}
+
+.dev-resumes-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.dev-resumes-actions button,
+.dev-resumes-actions a {
+  background: var(--accent);
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  padding: 0.45rem 0.8rem;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.dev-resumes-status {
+  margin-bottom: 1rem;
+}
+
+.dev-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem 1.1rem 1.2rem;
+  margin-top: 1rem;
+}
+
+.dev-card h2 {
+  font-size: 1.15rem;
+}
+
+.dev-card h2 span,
+.dev-meta {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.dev-card label,
+.dev-card input,
+.dev-card textarea {
+  display: block;
+  width: 100%;
+}
+
+.dev-card label {
+  margin-top: 0.8rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.dev-card input,
+.dev-card textarea {
+  margin-top: 0.3rem;
+  font: inherit;
+  font-weight: 400;
+  padding: 0.45rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.dev-card fieldset {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  margin-top: 0.9rem;
+  padding: 0.2rem 0.8rem 0.9rem;
+}
+
+.dev-card legend {
+  font-weight: 700;
+  padding: 0 0.3rem;
+}
+
 /* Chronological work */
 .timeline {
   list-style: none;
@@ -455,6 +559,21 @@ a:focus-visible {
 .timeline h3 {
   font-size: 1.15rem;
   font-weight: 700;
+}
+
+.timeline-toggle {
+  background: none;
+  border: 0;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+}
+
+.timeline-more {
+  margin-top: 0.65rem;
 }
 
 .timeline-context {

@@ -7,6 +7,7 @@ export default function SiteFooter() {
   const pathname = usePathname()
   // Full-bleed embeds hide the footer; the case-study page keeps site chrome.
   if (
+    pathname?.startsWith('/resume') ||
     pathname === '/projects/elementary-math' ||
     pathname === '/projects/inequivalent'
   ) {
@@ -24,6 +25,8 @@ export default function SiteFooter() {
           {contact.linkedinLabel}
         </a>
         <span>{contact.location}</span>
+        <a href="/gabriel-kane-coding.pdf">Coding resume</a>
+        <a href="/gabriel-kane-teaching.pdf">Teaching resume</a>
       </div>
     </footer>
   )

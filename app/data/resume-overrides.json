@@ -1,0 +1,43 @@
+{
+  "coding": {
+    "objective": "",
+    "skills": "",
+    "entries": {}
+  },
+  "teaching": {
+    "objective": "",
+    "skills": "Teaching: classroom instruction, one-on-one instruction, curriculum design, assessment development, differentiated learning\nStudent Development: Executive functioning, study skills, academic accountability\nTechnical: Python, Java, SQL, LaTeX, Tableau, Git, Google Data Analytics Certificate | 2026\nDevelopment & Data: Data analysis, dashboarding, algorithm design",
+    "entries": {
+      "mit": {
+        "title": "",
+        "degree": "Bachelor of Science Mathematics and Music (Double Major) | 2021",
+        "bullets": "GPA: 4.8 out of 5.0\nRelevant Coursework: Real Analysis, Differential Equations, Complex Analysis, Probability and Random Variables, Linear Algebra, Python Programming"
+      },
+      "private-instructor": {
+        "title": "Private Instructor (Virtual & In Person)",
+        "degree": "",
+        "bullets": "Delivered personalized instruction in Calculus (AP & college-level), Linear Algebra, Statistics, Algebra I & II, Physics, Python, competition math (AMC), elementary math\nBuilt strong relationships with families through consistent communication, improving student accountability and long-term academic progress\nSupported executive functioning skills including organization, study strategies, and test preparation"
+      },
+      "faculty": {
+        "title": "Mathematics Faculty, Cambridge School of Weston, Weston, MA",
+        "degree": "",
+        "bullets": "Taught and designed high school mathematics courses across multiple levels\nCollaborated with faculty on curriculum design, budgeting, and student support decisions\nCreated problem sets, assessments, and visualizations using LaTeX and Python"
+      },
+      "wotw": {
+        "title": "Nonprofit Data Standardization & Dashboarding",
+        "degree": "",
+        "bullets": "Standardized fragmented health datasets using Python and SQL\nBuilt interactive Tableau dashboards to track impact"
+      },
+      "worksheet": {
+        "title": "Math Worksheet Generator",
+        "degree": "",
+        "bullets": "Built 160,000 line Python question engine and TypeScript app that generate printable Grade 6 through Calculus worksheets across 600+ problem types.\nTrained effort models (Pearson r ≈ 0.91–0.94) so continuous difficulty follows predicted student effort."
+      },
+      "nbody": {
+        "title": "Barnes Hut N-Body Simulation",
+        "degree": "",
+        "bullets": "Built and optimized ~5000 line simulation using compute shaders\nEnabled real-time simulation of 10s of millions of particles through algorithmic optimization"
+      }
+    }
+  }
+}
