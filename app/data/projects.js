@@ -1,5 +1,5 @@
-// Reverse chronological by when the work started. Ranges stay visible
-// when something ran alongside later projects.
+// Newest end year first. Within one end year, projects come before
+// experiences, then education. Within a group, a later start year comes first.
 // coding / teaching are resume relevance scores: 2 leads, 1 is included, 0 is omitted.
 export const timeline = [
   {
@@ -13,21 +13,6 @@ export const timeline = [
     linkLabel: 'Open',
     repo: 'https://github.com/gkane1234/elementary_math',
     kind: 'project',
-    coding: 2,
-    teaching: 2,
-  },
-  {
-    id: 'wotw',
-    year: '2026',
-    title: 'Maternal Health Analytics',
-    context: 'Well on Their Way',
-    summary:
-      'Turned fragmented Excel health records for a maternal-health nonprofit in Gulu, Uganda into a Python pipeline, cleaned QGIS boundaries, and Tableau dashboards for training coverage and district impact.',
-    tech: ['Python', 'Pandas', 'Tableau', 'QGIS', 'Plotly', 'GeoPandas'],
-    href: '/projects/wotw',
-    linkLabel: 'Case study',
-    kind: 'experience',
-    teachingSection: 'project',
     coding: 2,
     teaching: 2,
   },
@@ -48,16 +33,6 @@ export const timeline = [
     teaching: 1,
   },
   {
-    id: 'encore',
-    year: '2025',
-    title: 'Encore',
-    summary:
-      'Shipped features and fixes on a pre-launch startup codebase in SQL, React, HTML, and JavaScript, and took part in design and feature discussions.',
-    kind: 'experience',
-    coding: 2,
-    teaching: 0,
-  },
-  {
     id: 'inequivalent',
     year: '2024 – 2026',
     title: 'Inequivalent Expression Solver',
@@ -72,6 +47,21 @@ export const timeline = [
     teaching: 0,
   },
   {
+    id: 'wotw',
+    year: '2026',
+    title: 'Maternal Health Analytics',
+    context: 'Well on Their Way',
+    summary:
+      'Turned fragmented Excel health records for a maternal-health nonprofit in Gulu, Uganda into a Python pipeline, cleaned QGIS boundaries, and Tableau dashboards for training coverage and district impact.',
+    tech: ['Python', 'Pandas', 'Tableau', 'QGIS', 'Plotly', 'GeoPandas'],
+    href: '/projects/wotw',
+    linkLabel: 'Case study',
+    kind: 'experience',
+    teachingSection: 'project',
+    coding: 2,
+    teaching: 2,
+  },
+  {
     id: 'private-instructor',
     year: '2024 – 2026',
     title: 'Private Instructor',
@@ -79,6 +69,16 @@ export const timeline = [
     kind: 'experience',
     coding: 1,
     teaching: 2,
+  },
+  {
+    id: 'encore',
+    year: '2025',
+    title: 'Encore',
+    summary:
+      'Shipped features and fixes on a pre-launch startup codebase in SQL, React, HTML, and JavaScript, and took part in design and feature discussions.',
+    kind: 'experience',
+    coding: 2,
+    teaching: 0,
   },
   {
     id: 'faculty',
