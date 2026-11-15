@@ -122,6 +122,12 @@ header.hero p {
   margin-top: 0.75rem;
 }
 
+.hint {
+  margin: 0.65rem 0 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
 .pill {
   font-family: var(--mono);
   font-size: 0.75rem;
@@ -325,6 +331,14 @@ footer.note {
   margin-top: 1.5rem;
   font-size: 0.8rem;
   color: var(--muted);
+}
+
+.page-link {
+  margin: 0.75rem 0 0;
+}
+
+.page-link a {
+  color: var(--accent);
 }
 
 .row-2 {
