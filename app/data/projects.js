@@ -1,7 +1,9 @@
 // Reverse chronological by when the work started. Ranges stay visible
 // when something ran alongside later projects.
+// coding / teaching are resume relevance scores: 2 leads, 1 is included, 0 is omitted.
 export const timeline = [
   {
+    id: 'worksheet',
     year: '2026',
     title: 'Elementary Math Worksheet Generator',
     summary:
@@ -9,8 +11,13 @@ export const timeline = [
     tech: ['Next.js', 'Python', 'KaTeX', 'Vercel'],
     href: '/projects/elementary-math',
     linkLabel: 'Open',
+    repo: 'https://github.com/gkane1234/elementary_math',
+    kind: 'project',
+    coding: 2,
+    teaching: 2,
   },
   {
+    id: 'wotw',
     year: '2026',
     title: 'Maternal Health Analytics',
     context: 'Well on Their Way',
@@ -19,8 +26,13 @@ export const timeline = [
     tech: ['Python', 'Pandas', 'Tableau', 'QGIS', 'Plotly', 'GeoPandas'],
     href: '/projects/wotw',
     linkLabel: 'Case study',
+    kind: 'experience',
+    teachingSection: 'project',
+    coding: 2,
+    teaching: 2,
   },
   {
+    id: 'nbody',
     year: '2025 – 2026',
     title: 'Compute Shader Barnes–Hut N-Body',
     summary:
@@ -30,14 +42,23 @@ export const timeline = [
     href: '/gravity/index.html',
     document: true,
     linkLabel: 'Open',
+    repo: 'https://github.com/gkane1234/gravity',
+    kind: 'project',
+    coding: 2,
+    teaching: 1,
   },
   {
+    id: 'encore',
     year: '2025',
     title: 'Encore',
     summary:
       'Shipped features and fixes on a pre-launch startup codebase in SQL, React, HTML, and JavaScript, and took part in design and feature discussions.',
+    kind: 'experience',
+    coding: 2,
+    teaching: 0,
   },
   {
+    id: 'inequivalent',
     year: '2024 – 2026',
     title: 'Inequivalent Expression Solver',
     summary:
@@ -45,25 +66,47 @@ export const timeline = [
     tech: ['JavaScript', 'Python', 'Java', 'Web Workers'],
     href: '/projects/inequivalent',
     linkLabel: 'Open',
+    repo: 'https://github.com/gkane1234/Inequivalent',
+    kind: 'project',
+    coding: 2,
+    teaching: 0,
   },
   {
+    id: 'private-instructor',
     year: '2024 – 2026',
     title: 'Private Instructor',
     summary: 'Tutored calculus (AP and college-level) and statistics.',
+    kind: 'experience',
+    coding: 1,
+    teaching: 2,
   },
   {
+    id: 'faculty',
     year: '2021 – 2024',
     title: 'Mathematics Faculty',
     context: 'Cambridge School of Weston · Weston, MA',
     summary:
       'Taught high-school mathematics, and wrote problem sets, assessments, and visualizations in LaTeX and Python.',
+    kind: 'experience',
+    coding: 1,
+    teaching: 2,
   },
   {
+    id: 'mit',
     year: '2021',
     title: 'Massachusetts Institute of Technology',
     context: 'B.S. Mathematics and Music · Cambridge, MA',
     summary:
       'GPA 4.8 / 5.0. Coursework included probability, linear algebra, real analysis, differential equations, complex analysis, and programming in Python.',
+    kind: 'education',
+    coding: 2,
+    teaching: 2,
+    org: 'Massachusetts Institute of Technology (MIT), Cambridge, MA',
+    degree: 'Bachelor of Science (B.S.) Mathematics and Music (Double Major), 2021',
+    resumeBullets: [
+      'GPA: 4.8 out of 5.0',
+      'Coursework: Probability and Random Variables, Linear Algebra, Real Analysis, Differential Equations, Complex Analysis, and programming in Python.',
+    ],
   },
 ]
 

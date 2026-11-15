@@ -37,7 +37,13 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3000](http://localhost:3000). While that dev server is running, open [http://localhost:3000/dev/resumes](http://localhost:3000/dev/resumes) to edit coding or teaching wording. Blank fields keep the website text. Teaching uses the coding wording when its field is blank.
+
+```bash
+npm run resumes
+```
+
+That writes `public/gabriel-kane-coding.pdf` and `public/gabriel-kane-teaching.pdf`. The page is omitted from production builds.
 
 ```bash
 npm run build   # production build
