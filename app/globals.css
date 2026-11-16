@@ -561,21 +561,6 @@ a:focus-visible {
   font-weight: 700;
 }
 
-.timeline-toggle {
-  background: none;
-  border: 0;
-  padding: 0;
-  color: inherit;
-  font: inherit;
-  font-weight: 700;
-  text-align: left;
-  cursor: pointer;
-}
-
-.timeline-more {
-  margin-top: 0.65rem;
-}
-
 .timeline-context {
   color: var(--text-muted);
   font-size: 0.9rem;
@@ -606,14 +591,20 @@ a:focus-visible {
 
 .timeline-link {
   display: inline-block;
-  margin-top: 0.75rem;
-  color: var(--accent);
+  margin-top: 0.85rem;
+  background: var(--accent);
+  color: #fff;
+  padding: 0.45rem 0.95rem;
+  border-radius: 8px;
   font-weight: 600;
   font-size: 0.9rem;
+  line-height: 1.2;
+  transition: background 0.2s;
 }
 
 .timeline-link:hover {
-  color: var(--accent-hover);
+  background: var(--accent-hover);
+  color: #fff;
 }
 
 /* Embedded project apps */
