@@ -16,8 +16,8 @@ export default function InequivalentProject() {
         {entry.summary}
       </p>
       <iframe
-        src="/inequivalent/index.html"
-        title="Inequivalent Expression Solver"
+        src="/inequivalent/comsearch.html"
+        title="ComSearch Solver"
         className="project-embed-frame"
         allow="clipboard-write"
       />
