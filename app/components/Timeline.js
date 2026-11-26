@@ -4,7 +4,7 @@ import { timeline } from '../data/projects'
 function TimelineLink({ item }) {
   if (!item.href) return null
 
-  // A static document (the GravityChunk page) needs a full navigation.
+  // External sites and static documents need a full navigation.
   // Client-side Link only resolves app routes.
   if (item.external || item.document) {
     const newTab = item.external
