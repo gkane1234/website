@@ -14,7 +14,7 @@ Work entries, skills, and contact details live in [`app/data/projects.js`](./app
 | When | What |
 | --- | --- |
 | 2026 | [Elementary Math Worksheet Generator](./app/projects/elementary-math) |
-| 2025 – 2026 | [Compute Shader Barnes–Hut N-Body (GravityChunk)](./public/gravity/index.html) |
+| 2025 – 2026 | [Compute Shader Barnes–Hut N-Body (GravityChunk)](https://gravity-website-gabes-projects-3f71fd6a.vercel.app) |
 | 2024 – 2026 | [Inequivalent Expression Solver](./app/projects/inequivalent) |
 | 2026 | [Maternal Health Analytics (Well on Their Way)](./app/projects/wotw) |
 | 2024 – 2026 | Private instruction in calculus and statistics |
