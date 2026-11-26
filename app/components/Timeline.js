@@ -5,7 +5,7 @@ function TimelineLink({ item }) {
   if (!item.href) return null
 
   // External sites and static documents need a full navigation.
-  // Client-side Link only resolves app routes.
+  // Client-side Link only resolves App Router paths.
   if (item.external || item.document) {
     const newTab = item.external
     return (
