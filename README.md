@@ -5,7 +5,7 @@ Personal portfolio site for **Gabriel Kane** (MIT B.S. Mathematics & Music). One
 ## What’s here
 
 - **Home** — objective, work by end year with projects before experiences, and skills
-- **Project pages** — the worksheet generator, the expression solver, the GravityChunk landing page, and the Well on Their Way case study
+- **Project pages** — the worksheet generator and expression solver (embedded from their Vercel apps), GravityChunk (linked to its Vercel landing page), and the Well on Their Way case study
 
 Work entries, skills, and contact details live in [`app/data/projects.js`](./app/data/projects.js).
 
