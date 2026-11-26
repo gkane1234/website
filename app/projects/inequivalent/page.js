@@ -16,7 +16,7 @@ export default function InequivalentProject() {
         {entry.summary}
       </p>
       <iframe
-        src="/inequivalent/comsearch.html"
+        src="https://inequivalent-web.vercel.app/comsearch.html"
         title="ComSearch Solver"
         className="project-embed-frame"
         allow="clipboard-write"
