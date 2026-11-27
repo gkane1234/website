@@ -5,7 +5,7 @@ import SiteFooter from './components/SiteFooter'
 export const metadata = {
   title: 'Gabriel Kane — Portfolio',
   description:
-    'Gabriel Kane, shifting from teaching into data science and analysis. Chronological work, skills, and contact.',
+    'Gabriel Kane, teaching, coding, and data analytics. Chronological work, skills, and contact.',
 }
 
 export default function RootLayout({ children }) {
