@@ -7,8 +7,8 @@ export const timeline = [
     year: '2026',
     title: 'Elementary Math Worksheet Generator',
     summary:
-      'Built a web app that generates printable math worksheets with randomized questions, KaTeX preview, and PDF export, from grade 6 through calculus.',
-    tech: ['Next.js', 'Python', 'KaTeX', 'Vercel'],
+      'Built a web app that generates highly customizable printable math worksheets covering specific topics and learned difficulty levels for grade 6 through calculus. Includes Stripe integration for payments.',
+    tech: ['Next.js', 'Python', 'KaTeX', 'Vercel', 'Stripe'],
     href: '/projects/elementary-math',
     linkLabel: 'Open',
     repo: 'https://github.com/gkane1234/elementary_math',
@@ -21,7 +21,7 @@ export const timeline = [
     year: '2025 – 2026',
     title: 'Compute Shader Barnes–Hut N-Body',
     summary:
-      'Real-time Barnes–Hut n-body simulation with compute shaders, built to handle tens of millions of bodies across a Java, GLSL, and Python codebase.',
+      'Real-time Barnes–Hut n-body simulation made with compute shaders in GLSL, built to handle tens of millions of bodies in real-time.',
     tech: ['Java', 'GLSL', 'Python', 'Compute Shaders'],
     // GravityChunk landing page from gkane1234/gravity `website/` (gravity-website).
     href: '/projects/gravity',
@@ -36,8 +36,8 @@ export const timeline = [
     year: '2024 – 2026',
     title: 'Inequivalent Expression Solver',
     summary:
-      'Builds algebraically inequivalent expressions and searches for ways to hit a goal with +, −, ×, and ÷. Custom structures and compression brought a saved file from about 1.7 GB to about 100 MB, and load time from about 20 seconds to about 100 ms.',
-    tech: ['JavaScript', 'Python', 'Java', 'Web Workers'],
+      'Deep exploration of the generation of inequivalent algebraic expressions. Using a recreation of a known combinatorial generator, a custom stochastic approach with compression. A web version and a desktop version.',
+    tech: ['Java', 'JavaScript', 'Python', 'Web Workers'],
     href: '/projects/inequivalent',
     linkLabel: 'Open',
     repo: 'https://github.com/gkane1234/Inequivalent',
@@ -51,8 +51,8 @@ export const timeline = [
     title: 'Maternal Health Analytics',
     context: 'Well on Their Way',
     summary:
-      'Turned fragmented Excel health records for a maternal-health nonprofit in Gulu, Uganda into a Python pipeline, cleaned QGIS boundaries, and Tableau dashboards for training coverage and district impact.',
-    tech: ['Python', 'Pandas', 'Tableau', 'QGIS', 'Plotly', 'GeoPandas'],
+      'Turned fragmented Excel health records for a maternal-health nonprofit in Gulu, Uganda into a Python pipeline, used Tableau dashboards for training coverage and district impact. Maintains a google sheets dashboard for tracking and visualizing data.',
+    tech: ['Python', 'Pandas', 'Tableau', 'Google Sheets'],
     href: '/projects/wotw',
     linkLabel: 'Case study',
     kind: 'experience',
@@ -64,7 +64,7 @@ export const timeline = [
     id: 'private-instructor',
     year: '2024 – 2026',
     title: 'Private Instructor',
-    summary: 'Tutored calculus (AP and college-level) and statistics.',
+    summary: 'Tutored calculus (AP and college-level), statistics, college computer science, elementary math, early algebra, and more.',
     kind: 'experience',
     coding: 1,
     teaching: 2,
@@ -74,7 +74,7 @@ export const timeline = [
     year: '2025',
     title: 'Encore',
     summary:
-      'Shipped features and fixes on a pre-launch startup codebase in SQL, React, HTML, and JavaScript, and took part in design and feature discussions.',
+      'Shipped features and fixes on a collaborative codebase in SQL, React, HTML, and JavaScript, and took part in design and feature discussions.',
     kind: 'experience',
     coding: 2,
     teaching: 0,
@@ -85,7 +85,7 @@ export const timeline = [
     title: 'Mathematics Faculty',
     context: 'Cambridge School of Weston · Weston, MA',
     summary:
-      'Taught high-school mathematics, and wrote problem sets, assessments, and visualizations in LaTeX and Python.',
+      'Taught advanced high-school mathematics at a small private high-school. Worked with faculty to improve the curriculum and teaching methods.',
     kind: 'experience',
     coding: 1,
     teaching: 2,
@@ -110,22 +110,25 @@ export const timeline = [
 ]
 
 export const primarySkills = [
+  'Java',
   'Python',
   'Pandas',
   'SQL',
-  'Java',
   'JavaScript',
   'React',
+  'Next.js',
+  'Vercel',
   'GLSL',
   'Tableau',
-  'QGIS',
-  'GeoPandas',
+  'Google Sheets',
+  'Stripe',
 ]
 
 export const otherSkills = [
   'Git',
   'LaTeX',
   'Excel',
+  'QGIS',
   'Data Cleaning',
   'Data Transformation',
 ]
@@ -138,5 +141,5 @@ export const contact = {
   linkedinLabel: 'linkedin.com/in/gabriel-kane',
   location: 'Los Angeles, CA',
   objective:
-    'Shifting from teaching into data science and analyst work, using quantitative skills, a knack for distilling data and knowledge into key insights, and a joy for tough challenges.',
+    'Software development, teaching, and data analytics. Using quantitative skills, a knack for distilling data and knowledge into key insights, and a joy for tough challenges.',
 }
